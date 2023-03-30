@@ -1,8 +1,10 @@
-# Sample Hardhat Project
+# Splitable batch example
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
+This project shows how to create a job activated by gelato that is able to detect the run will not complete (due to gas cunsumption) and able to launch subsequent jobs until it is completed.
 
-Try running some of the following tasks:
+![image](https://user-images.githubusercontent.com/26048157/228724390-b4130fd2-1102-4d67-b019-0bc2f4584779.png)
+
+See contracts/GelatoSplitableTimeBatch.sol for a detailed description and technicals informations
 
 ```shell
 npx hardhat help
